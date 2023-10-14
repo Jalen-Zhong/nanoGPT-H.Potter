@@ -49,7 +49,7 @@ python train.py config/train_harrypotter.py --device=cuda --compile=False
 * select the best model by pointing the sampling script at this directory and give the **"keyword"**:
 
 ```
-python sample.py --out_dir=out-harrypotter --start="Love"
+python sample.py --out_dir=out-harrypotter --start="Harry hoped"
 ```
 
 if you do not have a GPU, you can try:
@@ -89,6 +89,7 @@ These are the results I obtained from training on the "Harry Potter" dataset wit
 * “Hermione took”:
 
   ```
+  ---------------
   Hermione took a deep breath and looked around at Harry , who was so interested in the crowd that they were sitting in the Great Hall , wondering whether he had the only three of them .
   Snape had heard her mutter and watched Harry feel very good chance .
   The Gryffindors were waiting in the Hall at once , but there was a heavy pause .
@@ -99,10 +100,12 @@ These are the results I obtained from training on the "Harry Potter" dataset wit
   " Hermione , " Hermione spat , at once .
   " I've got to get one of the dormitory . "
   " You've never been thinking of the Dungbombs , " said Ron .
+  ---------------
   ```
 * "Roan ate":
 
   ```
+  ---------------
   Roan ate their position , and Harry noticed that the others exchanged looks with a slight expression and snatching up for his left hand .
   " What's that supposed to have ? "
   said Ron quickly .
@@ -114,10 +117,12 @@ These are the results I obtained from training on the "Harry Potter" dataset wit
   It was nearly time , but Hermione had already packed her homework all day .
   " You'd like to get back to Charms , " said Harry faintly .
   " Well , I thought you'd better tell , " said Hermione , rubbing her hair so that Harry and Ron looked up at each other as though she was not daring to laugh .
+  ---------------
   ```
 * "Voldemort was reborn":
 
   ```
+  ---------------
   Voldemort was reborn from Azkaban .
   But he just knows how he'd have come back to the Ministry for his time .
   His parents were hiding , just for instance , even if he'd be able to kill Voldemort . "
@@ -129,4 +134,5 @@ These are the results I obtained from training on the "Harry Potter" dataset wit
   " But , " said Harry , his voice rising slightly .
   " Where are you ? "
   " He's in , " said Dumbledore , his voice echoing up the spiral staircase , " Sirius is going to have enough of the Order , you know .
+  ---------------
   ```
