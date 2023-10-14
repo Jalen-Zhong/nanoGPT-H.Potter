@@ -33,12 +33,12 @@ Notice:
 * prepare the dataset:
 
 ```
-python data/Laoztu/prepare.py
+python data/harrypotter/prepare.py
 ```
 
 This creates a `train.bin` and `val.bin` in that data directory. Now it is time to train your GPT. The size of it very much depends on the computational resources of your system:
 
-* train Lao-ztu GPT:
+* train  H.Potter-GPT:
 
 ```
 python train.py config/train_harrypotter.py --device=cuda --compile=False
