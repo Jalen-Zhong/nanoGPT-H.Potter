@@ -4,6 +4,7 @@
 
 # nanoGPT-H.Potter
 
+* You can find the code details from [MY Personal Study Notes](https://github.com/Jalen-Zhong/StudyNote4Jalen/blob/main/LLM/NanoGPT.ipynb).
 * H.Potter-GPT is an AI story teller, you can give the key words for anything you want to enjoy magic story.
 * H.Potter-GPT is only trainning based on 'Harry Potter' by J.K.Rowlling.
 * You can obtain the dataset from [my kaggle home](https://www.kaggle.com/datasets/jalenzhong/harry-potter-txt-file).
